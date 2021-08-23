@@ -1,3 +1,19 @@
+.welcom-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcom-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.welcom-header__text {
+  width: 60%;
+  opacity: 0.7;
+}
+
 #login-form {
   display: flex;
   flex-direction: column;
@@ -19,10 +35,10 @@
 #login-form input:focus {
   border-color: var(--color);
 }
-#login-form input:not([type="submit"]) {
+/* #login-form input:not([type="submit"]) {
   transition: border-color 0.3s ease-in-out;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
+} */
 /* not은 ()안의 조건이 아닐때 밑에 것이 적용됨. */
 #login-form input[type="submit"] {
   background-color: var(--color);

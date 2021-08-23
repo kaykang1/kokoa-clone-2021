@@ -1,5 +1,15 @@
 @import "reset.css";
-@import "status.css";
-@import "index-header.css";
 @import "variable.css";
-@import "index-form.css";
+/* screen */
+@import "screen/login.css";
+@import "screen/friends.css";
+/* components */
+@import "components/status.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+body {
+  background-color: #eceff1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
