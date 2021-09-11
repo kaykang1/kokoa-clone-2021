@@ -4,6 +4,14 @@
   align-items: center;
   padding: 40px 25px 10px 25px;
 }
+.screen-header__chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 25px 10px 25px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
 .screen-header__title {
   font-size: 32px;
   font-weight: 600;

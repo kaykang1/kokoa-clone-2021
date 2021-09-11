@@ -1,3 +1,6 @@
+.user-component {
+  justify-content: space-between;
+}
 .user-component,
 .user-component__column {
   display: flex;
@@ -18,4 +21,26 @@
   font-size: 14px;
   color: rgba(0, 0, 0, 0.3);
   margin-top: 8px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.user-component__title--not-bold {
+  font-weight: 450;
+  font-size: 17px;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.6);
+}
+.user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+}
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }

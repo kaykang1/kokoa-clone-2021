@@ -9,3 +9,14 @@
   color: rgba(0, 0, 0, 0.3);
   margin-right: 5px;
 }
+.friends-screen__channel {
+  margin-top: 10px;
+  border-top: 1px solid #cfd8dc;
+  padding: 10px;
+}
+.friends-screen__channel-header {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.6);
+}
